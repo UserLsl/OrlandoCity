@@ -113,6 +113,15 @@ header #logotipo{
     text-align: right;
     border-left: 0;
 }
+.pull-left {
+    padding-left: 15px;
+    padding-right: 0;
+    text-align: left;
+    border-right: 0;
+	color: #666;
+	font-family: 'OpenSans';
+	font-size: 16px;
+}
 #menu {
 	margin: 16px 0;
 }
@@ -224,6 +233,7 @@ header #logotipo{
 #estatisticas p small {
 	color: #fff;
 	font-size: 24px;
+	display: block;
 }
 
 #call-to-action {
@@ -267,4 +277,32 @@ header #logotipo{
 #call-to-action .row-max-400 {
 	margin: 0 auto;
 	max-width: 400px;
+}
+footer {
+	margin-top: 110px;
+}
+footer .row {
+	width: 100%;
+}
+footer .row-cinza-claro {
+	background-color: #171F26;
+	height: 200px;
+}
+footer .row-cinza-escuro {
+	background-color: #11171D;
+	height: 60px;
+	border-top: #242D37 1px solid;
+}
+footer .container p {
+	line-height: 3;
+	margin-bottom: 0;
+}
+footer .texto-roxo {
+	color: #623291;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	font-size: 14px;
+}
+footer .logotipo {
+	margin-top: 28px;
 }
