@@ -1,0 +1,53 @@
+/* Tamanho padrão para tablets */
+@media only screen and (max-width: 768px) {
+    .header-black ul {
+        display: none;
+    }
+    #menu li.search {
+        width: 110px;
+        transition: 1s;
+    }
+    #menu li.search.ativo {
+        width: 150px;
+    }
+}
+
+/* Tamanho padrão para smartphones */
+@media only screen and (max-width: 480px) {
+    .header-black ul, #menu {
+        display: none;
+    }
+    #logotipo {
+        left: 33%;
+    }
+    #btn-bars, #btn-search {
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        top: 2px;
+        background: none;
+        border: none;
+        display: block;
+    }
+    #btn-bars {
+        left: 5px;
+    }
+    #btn-search { 
+        right: 5px;
+    }
+    #banner {
+        height: 317px;
+        top: -150px;
+        background-size: cover;
+        background-position: 0;
+        text-align: center;
+    }
+    #banner h1 {
+        top: 180px;
+        font-size: 48px;
+        margin-left: 0;
+    }
+    #banner h1 small {
+        font-size: 22px;
+    }
+}

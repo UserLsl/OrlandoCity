@@ -104,6 +104,16 @@ header #logotipo{
     top: 20px;
 	z-index: 3;
 }
+.container-menu{
+	position: absolute;
+	--bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 95%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+	margin: 20px 0 0 10px;
+	max-width: 100%;
+}
 .container .row{
 	width: 100%;
 }
@@ -137,11 +147,11 @@ header #logotipo{
 	font-weight: bold;
 }
 #menu li.search {
-	width: 182px;
+	width: 180px;
 	transition: 1s;
 }
 #menu li.search.ativo {
-	width: 300px;
+	width: 250px;
 }
 #menu li.search input {
 	background-color: #5C2D90;
@@ -150,16 +160,12 @@ header #logotipo{
 	height: 30px;
 	line-height: 30px;
 }
-#menu li.search.ativo input {
-	width: 300px;
-}
 #menu li.search ::-webkit-input-placeholder {
 	color: #fff;
 }
 #menu li.search button {
 	border: none;
 	background: none;
-	position: absolute;
 	right: 3px;
 }
 #menu li.search button i {
@@ -401,4 +407,7 @@ footer .list-socials i {
 	color: red;
 	font-size: 12em;
 	transition: 2s;
+}
+#btn-bars, #btn-search {
+	display: none;
 }

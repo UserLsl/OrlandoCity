@@ -2,23 +2,30 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="author" content="Lucas">
+		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<title>Orlando City</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 		<link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/styles-mobile.css">
 	</head>
 	<body>
 
 		<header>
 
-			<div class="container">
+			<div class="container container-logo">
 				<img id="logotipo" src="img/orlando-logo.png" alt="Logotipo">
 			</div>
 
 			<div class="header-black">
 				<div class="container">
+
+					<button id="btn-bars" title="bars" type="button"><i class="fa fa-bars"></i></button>
+					<button id="btn-search" title="search" type="search"><i class="fa fa-search"></i></button>
+
 						<ul class="pull-right">
 							<li class="club-01"><a href="#"></a></li>
 							<li class="club-02"><a href="#"></a></li>
@@ -45,7 +52,7 @@
 				</div>
 			</div>
 
-			<div class="container">
+			<div class="container-menu">
 				<div class="row">
 					<nav id="menu" class="pull-right">
 						<ul>
@@ -58,7 +65,7 @@
 								<div class="input-group">
 									<input id="input-search" type="search" class="form-control" placeholder="search">
 									<div class="input-group-btn">
-										<button type="button"><i class="fa fa-search"></i></button>
+										<button title="btn" type="button"><i class="fa fa-search"></i></button>
 									</div>
 								</div>
 							</li>
